@@ -48,6 +48,13 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 ```bash
 oc create -f filebrowser.yaml
 ```
+5. Obtain the route to access the application
+```bash
+oc get route -l app=filebrowser
+```
+6. Access the application from a web browser:
+Sample URL: filebrowser-route-<namespace>.apps.<openshift-cluster>.<basedomain>
+7. Login with id/password admin/admin
 
 ## Screenshots
 
