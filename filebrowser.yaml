@@ -25,7 +25,7 @@ spec:
             mountPath: /srv
       containers:
       - name: filebrowser
-        image: docker.io/johnibm/filebrowser:openshift
+        image: quay.io/johnibm/filebrowser:openshift
         imagePullPolicy: Always
         volumeMounts:                     
           - name: filebrowser-vol
