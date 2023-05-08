@@ -10,7 +10,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/hurlenko/filebrowser.svg)](https://hub.docker.com/r/hurlenko/filebrowser/)
 
 ## Introduction
-Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker modified for OpenShift
+Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker modified for OpenShift <br>
 Docker image: https://hub.docker.com/repository/docker/johnibm/filebrowser/
 
 ## Table of Contents
