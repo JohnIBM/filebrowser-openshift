@@ -53,7 +53,9 @@ oc create -f filebrowser.yaml
 oc get route -l app=filebrowser
 ```
 6. Access the application from a web browser:
-Sample URL: filebrowser-route-<namespace>.apps.<openshift-cluster>.<basedomain>
+```url
+https://filebrowser-route-<namespace>.apps.<openshift-cluster>.<basedomain>
+```
 7. Login with id/password admin/admin
 
 ## Screenshots
