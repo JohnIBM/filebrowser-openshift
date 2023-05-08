@@ -10,8 +10,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/hurlenko/filebrowser.svg)](https://hub.docker.com/r/hurlenko/filebrowser/)
 
 ## Introduction
-Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker
-Modified for OpenShift
+Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker modified for OpenShift
 ## Table of Contents
 
 - [Screenshots](#screenshots)
@@ -57,6 +56,10 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 
 ### OpenShift
 
+1. git clone https://github.com/JohnIBM/filebrowser-openshift.git
+2. cd filebrowser-openshift
+3. Modify filebrowser.yaml as desired
+4. Create the deployment:
 ```bash
 oc create -f filebrowser.yaml
 ```
