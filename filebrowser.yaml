@@ -18,7 +18,11 @@ spec:
       initContainers:
       - name: init
         image: docker.io/johnibm/filebrowser:openshift
+        imagePullPolicy: Always
         command: ['sh', '-c', 'mkdir -p -m 777 /srv/filebrowser/config && mkdir -p -m 777 /srv/filebrowser/data']
+        volumeMounts:                     
+          - name: filebrowser-vol
+            mountPath: /srv
       containers:
       - name: filebrowser
         image: docker.io/johnibm/filebrowser:openshift
