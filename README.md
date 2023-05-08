@@ -13,31 +13,15 @@
 Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker modified for OpenShift
 ## Table of Contents
 
-- [Screenshots](#screenshots)
-- [Features](#features)
+
+
 - [Usage](#usage)
   - [OpenShift](#openshift)  
   - [Ports desription](#ports-description)
   - [Supported environment variables](#supported-environment-variables)
   - [Supported volumes](#supported-volumes)  
 
-## Screenshots
-
-### Desktop
-
-![Preview](https://user-images.githubusercontent.com/5447088/50716739-ebd26700-107a-11e9-9817-14230c53efd2.gif)
-
-### Mobile device
-
-| | |
-|---|---|
-![Preview](https://user-images.githubusercontent.com/18035960/67269128-c7873000-f4be-11e9-89be-1fe33c3e973c.png) | 
-
-## Features
-
-- Confgurable via environment variables
-- Can be run using different user
-- Supports multiple architectures, tested on Ubuntu 18.04 (`amd64`), Rock64 🍍 (`arm64`) and Raspberry Pi 🍓 (`arm32`)
+- [Screenshots](#screenshots)
 
 ## Usage
 
@@ -63,3 +47,15 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 ```bash
 oc create -f filebrowser.yaml
 ```
+
+## Screenshots
+
+### Desktop
+
+![Preview](https://user-images.githubusercontent.com/5447088/50716739-ebd26700-107a-11e9-9817-14230c53efd2.gif)
+
+### Mobile device
+
+| | |
+|---|---|
+![Preview](https://user-images.githubusercontent.com/18035960/67269128-c7873000-f4be-11e9-89be-1fe33c3e973c.png) | 
