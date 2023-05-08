@@ -41,7 +41,7 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 
 ### OpenShift Implementation
 
-1. git clone https://github.com/JohnIBM/filebrowser-openshift.git
+1. git clone https://github.com/johnibm/filebrowser-openshift.git
 2. cd filebrowser-openshift
 3. Modify filebrowser.yaml as desired
 4. Create the deployment:
@@ -58,14 +58,9 @@ https://filebrowser-route-<namespace>.apps.<openshift-cluster>.<basedomain>
 ```
 7. Login with id/password admin/admin
 
-## Screenshots
+## Screenshot
 
 ### Desktop
 
 ![Preview](https://user-images.githubusercontent.com/5447088/50716739-ebd26700-107a-11e9-9817-14230c53efd2.gif)
 
-### Mobile device
-
-| | |
-|---|---|
-![Preview](https://user-images.githubusercontent.com/18035960/67269128-c7873000-f4be-11e9-89be-1fe33c3e973c.png) | 
