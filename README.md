@@ -16,10 +16,11 @@ Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker m
 
 
 - [Usage](#usage)
-  - [OpenShift](#openshift)  
-  - [Ports desription](#ports-description)
+  
+  - [Ports description](#ports-description)
   - [Supported environment variables](#supported-environment-variables)
   - [Supported volumes](#supported-volumes)  
+  - [OpenShift Implementation](#openshift)  
 
 - [Screenshots](#screenshots)
 
@@ -38,7 +39,7 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 - `/srv/filebrowser/data` - Data directory to browse
 - `/srv/filebrowser/config` - `filebrowser.db` location
 
-### OpenShift
+### OpenShift Implementation
 
 1. git clone https://github.com/JohnIBM/filebrowser-openshift.git
 2. cd filebrowser-openshift
