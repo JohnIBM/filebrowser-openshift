@@ -31,7 +31,7 @@ Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker m
 
 | | |
 |---|---|
-![Preview](https://user-images.githubusercontent.com/18035960/67269128-c7873000-f4be-11e9-89be-1fe33c3e973c.png) | ![Preview](https://user-images.githubusercontent.com/18035960/67269151-d4a41f00-f4be-11e9-9b10-ec08c3a96692.png)
+![Preview](https://user-images.githubusercontent.com/18035960/67269128-c7873000-f4be-11e9-89be-1fe33c3e973c.png) | 
 
 ## Features
 
