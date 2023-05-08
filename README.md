@@ -47,53 +47,6 @@ filebrowser provides a file managing interface within a specified directory and 
 
 ## Usage
 
-### OpenShift
-
-```bash
-oc create -f filebrowser.yaml
-```
-
-To run as current user and to map custom volume locations use:
-
-```bash
-docker run -d \
-    --name filebrowser \
-    --user $(id -u):$(id -g) \
-    -p 8080:8080 \
-    -v /DATA_DIR:/data \
-    -v /CONFIG_DIR:/config \
-    -e FB_BASEURL=/filebrowser \
-    hurlenko/filebrowser
-```
-
-### docker-compose
-
-Minimal `docker-compose.yml` may look like this:
-
-```yaml
-version: "3"
-
-services:
-  filebrowser:
-    image: hurlenko/filebrowser
-    user: "${UID}:${GID}"
-    ports:
-      - 443:8080
-    volumes:
-      - /DATA_DIR:/data
-      - /CONFIG_DIR:/config
-    environment:
-      - FB_BASEURL=/filebrowser
-    restart: always
-```
-
-Simply run:
-
-```bash
-docker-compose up
-```
-
-
 ### Ports description
 
 - `8080` - default filebrowser port
@@ -104,25 +57,11 @@ The environment variables are prefixed by `FB_` followed by the option name in c
 
 ### Supported volumes
 
-- `/data` - Data directory to browse
-- `/config` - `filebrowser.db` location
+- `/srv/filebrowser/data` - Data directory to browse
+- `/srv/filebrowser/config` - `filebrowser.db` location
 
-### Attaching multiple directories
-
-If you want to attach multiple directories you need to mount them as subdirectories of the data directory inside of the container (`/data` by default):
+### OpenShift
 
 ```bash
-docker run \
-    -v /path/to/music:/data/music \
-    -v /path/to/movies:/data/movies \
-    -v /path/to/photos:/data/photos \
-    hurlenko/filebrowser
-```
-
-## Building
-
-```bash
-git clone https://github.com/hurlenko/filebrowser-docker
-cd filebrowser-docker
-docker build -t hurlenko/filebrowser .
+oc create -f filebrowser.yaml
 ```
