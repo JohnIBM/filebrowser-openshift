@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/filebrowser/logo/master/banner.png" width="550"/>
 </p>
 
-# [Filebrowser](https://github.com/filebrowser/filebrowser) inside an [OpenShift container](https://hub.docker.com/r/johnibm/filebrowser)
+# [Filebrowser](https://github.com/filebrowser/filebrowser) inside an [OpenShift Deployment](https://hub.docker.com/r/johnibm/filebrowser)
 
 [![Latest Github release](https://img.shields.io/github/release/hurlenko/filebrowser-docker.svg)](https://github.com/hurlenko/filebrowser-docker/releases/latest)
 [![Image size](https://img.shields.io/docker/image-size/hurlenko/aria2-ariang/latest)](https://hub.docker.com/r/hurlenko/filebrowser)
