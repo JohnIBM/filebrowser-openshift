@@ -60,7 +60,7 @@ https://filebrowser-route-<namespace>.apps.<openshift-cluster>.<basedomain>
 ```
 7. Login with id/password admin/admin
 
-## Screenshot
+### Screenshot
 
 ### Desktop
 
