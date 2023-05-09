@@ -11,8 +11,9 @@
 
 ## Introduction
 Filebrowser implementation from https://github.com/hurlenko/filebrowser-docker modified for OpenShift <br>
+Images <br>
 Docker:  https://hub.docker.com/repository/docker/johnibm/filebrowser/
-Quay.io: https://quay.io/repository/johnibm/filebrowser
+Quay  : https://quay.io/repository/johnibm/filebrowser
 
 ## Table of Contents
 
